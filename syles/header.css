@@ -1,5 +1,6 @@
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 64px;
 margin-top: 20px;
@@ -15,6 +16,7 @@ header img {
 
 #navigation {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 48px;
   list-style: none;
@@ -56,6 +58,7 @@ transition: transform 0.5s;
 #navigation-social {
   margin-left: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 24px;
 }
