@@ -1,0 +1,29 @@
+body {
+  background: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 10, 1) 100%
+    ),
+    url("../assets/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 0;
+  animation: fadeIn 3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
