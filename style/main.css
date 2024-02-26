@@ -13,3 +13,10 @@ main {
 main img{
   max-width: 500px;
 }
+
+@media screen and (max-width: 768px) {
+  main img{
+    width: 100%;
+    max-width: 400px;
+  }
+}

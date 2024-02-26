@@ -80,9 +80,16 @@ main {
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 768px) {
   .catalog {
     display: grid;
     grid-template-columns: repeat(1, auto);
+  }
+  .catalog1 {
+    margin-bottom: 15px;
+  }
+
+  .fadeup {
+    position: fixed;
   }
 }
